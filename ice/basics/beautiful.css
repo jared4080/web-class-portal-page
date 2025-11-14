@@ -1,0 +1,17 @@
+body {
+    background-color:rgba(185, 111, 255, 0.541)
+}
+h1{
+    color: white
+    padding 30px 15px;
+    border: 2px solid white;
+
+}
+p{
+    color: purple
+}
+.flavors{
+    background-color: bisque;
+    font-style: italic;
+    color: rgb(62, 62, 62);
+}

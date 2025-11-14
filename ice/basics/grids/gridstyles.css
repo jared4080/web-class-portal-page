@@ -1,0 +1,50 @@
+div {
+    background-color: lightblue;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 10px;
+    padding: 10px;;
+}
+
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding: 10px;
+}
+
+.second {
+    grid-column: 2/4;
+    grid-row: 1/-1;
+}
+
+.third {
+    background-color: purple;
+    grid-column: 1/-1;
+}
+
+.fourth {
+    font-weight: bold;
+    grid-column: 6/-1;
+}
+
+.red {
+    background-color: red;
+    grid-column: 1/-1;
+}
+
+.yellow {
+    background-color: yellow;
+    grid-column: 1/-1;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.black {
+    background-color: black;
+}
